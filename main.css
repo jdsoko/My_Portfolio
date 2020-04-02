@@ -1,0 +1,431 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+
+.space{
+    height: 100px;
+}
+
+i{
+    font-size: 32px;
+   color: rgb(63, 35, 82);
+    
+}
+i a{
+    text-align: center;
+    
+}
+i:hover{
+    color: rgb(101, 80, 126);
+}
+
+.contact{
+    margin-bottom: 55px;
+}
+
+.icons{
+    margin-left: 45px;
+    letter-spacing: 40px;
+   margin-top: 20px;
+    display: flex;
+   justify-content: center;
+}
+
+.contactForm{
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: initial;
+    background-color: rgb(101, 80, 126);
+    border: none;
+    box-shadow: 2px 2px 5px rgb(88, 88, 88);
+    -webkit-box-shadow: 2px 2px 5px rgb(88, 88, 88);
+    -moz-box-shadow: 2px 2px 5px rgb(88, 88, 88);
+    margin-bottom: 40px;
+}
+
+.button{
+    text-align: center;
+}
+button{
+    border: none;
+    display:inline-block;
+    padding:0.7em 1.4em;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:rgb(214, 214, 214);
+    background-color:rgb(63, 35, 82);
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+}
+button:active{
+    top:0.1em;
+}
+button:hover{
+    cursor: pointer;
+}
+
+label{
+    color: rgb(214, 214, 214);
+    font-family: 'Roboto Slab', serif;
+    font-size: 11pt;
+}
+input, textarea{
+    margin-top: 10px;
+    background-color: rgb(214, 214, 214);
+    display: block;
+    resize: none;
+    border-radius: 3px;
+    border: 2px solid rgba(63, 35, 82, 0.842);
+    width: 95%;
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 5px;
+}
+
+.formLabel{
+    display: block;
+
+}
+
+.projectDescription{
+    padding: 30px;
+    border-top: 2px solid rgb(63, 35, 82);
+    border-bottom: 2px solid rgb(63, 35, 82);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.projectLinks{
+    margin-top: -20px;
+    word-spacing: 40px;
+    margin-bottom: 120px;
+}
+.projectLinks a{
+    text-decoration: none;
+    text-transform: initial;
+    color: rgb(63, 35, 82);
+    font-size: 14pt;
+    
+}
+
+.projectLinks a:hover{
+    font-weight: bold;
+    color: rgb(63, 35, 82);
+    border-bottom: 3px solid rgb(63, 35, 82);
+}
+
+.about, .projectDescription, .contact{
+    text-align: initial;
+}
+
+.projectName{
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+}
+
+.utilize{
+    color: rgb(63, 35, 82);
+}
+
+.projectPic{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space{
+    height: 50px;
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+.navList{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(101, 80, 126);
+    width: 100%;
+    margin-top: -100px;
+    margin-left: -8px;
+    height: 60px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    word-spacing: 50px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 5px rgb(88, 88, 88);
+    -webkit-box-shadow: 2px 2px 5px rgb(88, 88, 88);
+    -moz-box-shadow: 2px 2px 5px rgb(88, 88, 88);
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+li a {
+    text-decoration: none;
+    font-size: 12pt;
+    color: rgb(214, 214, 214);
+    letter-spacing: 2px;
+    
+}
+
+li a:hover{
+    border-bottom: 4px solid rgb(63, 35, 82);
+}
+
+li a:active{
+    color: rgb(63, 35, 82);
+    border-bottom: 4px solid rgb(214, 214, 214);
+}
+
+.headerContent{
+    margin-top: 100px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(63, 35, 82);
+    text-transform: uppercase;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.name{
+    font-size: 18pt;
+}
+
+.headline{
+    font-size: 12pt;
+    font-weight: bold;
+    
+}
+
+.headOutline{
+    border-top: solid rgb(37, 37, 37) 3px;
+    border-bottom: solid rgb(37, 37, 37) 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.displayedContent{
+    font-family: 'Roboto ', sans-serif;
+    width: 92%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(37, 37, 37);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 870px){
+    .headerContent{
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .projectPic{
+        width: 770px;
+    }
+    .projectDescription{
+        font-size: 13pt;
+    }
+    .projectLinks a{
+        font-size: 18pt;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 870px){
+    .headerContent{
+        width: 60%;
+    }
+    .projectPic{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .contactForm{
+        width: 530px;
+        margin-bottom: 60px;
+    }
+    i{
+        font-size: 42px;
+    }
+    .icons{
+        letter-spacing: 60px;
+    }
+    textarea{
+        height: 120px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 600px){
+    label{
+        font-size: 10pt;
+    }
+    input, textarea{
+        font-size: 10pt;
+    }
+    textarea{
+        height: 60px;
+    }
+    button{
+        font-size: 12pt;
+    }
+
+    .navList{
+        word-spacing: 10px;
+    }
+    li a {
+        font-size: 10pt;
+        letter-spacing: initial;
+    }
+    .headerContent{
+        width: 80%;
+    }
+    .name{
+        font-size: 17pt;
+    }
+    .headline{
+        font-size: 11pt;
+    }
+    .displayedContent{
+        font-size: 10pt;
+        margin-top: 50px;
+    }
+    .projectName{
+        font-size: 13pt;
+    }
+    .projectLinks{
+        font-size: 10pt;
+    }
+    .projectDescription{
+        padding: 20px;
+    }
+    .contactForm{
+        width: 100%;
+        padding-top: 10px;
+    }
+    button{
+        font-size: 11pt;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1100px){
+    .projectPic{
+        width: 95%;
+    }
+    .displayedContent{
+        width: 1000px;
+        font-size: 14pt;
+    }
+    .navList{
+        position: fixed;
+        left: 0;
+        height: 100%;
+        background-color: rgb(101, 80, 126);
+        margin-top: -100px;
+        box-shadow: 2px 2px 5px rgb(88, 88, 88);
+        -webkit-box-shadow: 2px 2px 5px rgb(88, 88, 88);
+        -moz-box-shadow: 2px 2px 5px rgb(88, 88, 88);
+        width: 200px;
+        
+    }
+    
+    li{
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+    
+    li a {
+        font-size: 16pt;
+        margin-right: 20px;
+        padding: 5px;
+        
+    }
+    
+    ul{
+        position: absolute;
+        top: 70px;
+        
+    }
+    
+    li a:hover{
+        border-bottom: none;
+        background-color: rgb(63, 35, 82);
+        
+    }
+    
+    li a:active{
+        color: rgb(63, 35, 82);
+        background-color: rgb(214, 214, 214);
+    }
+
+    .headerContent{
+        margin-top: 50px;
+    }
+
+    .displayedContent, .headerContent{
+        padding-left: 200px;
+    }
+    .name{
+        font-size: 20pt;
+    }
+    .headline{
+        font-size: 14pt;
+    }
+    .projectName{
+        font-size: 18pt;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1400px){
+    .projectPic{
+        width: 100%;
+    }
+    .about{
+        width: 1000px;
+        margin-left: -50px;
+    }
+    
+    .displayedContent{
+        width: 1000px;
+    }
+    .headerContent{
+        width: 820px;
+    }
+    .name{
+        font-size: 28pt;
+    }
+    .headline{
+        font-size: 18pt;
+    }
+}
