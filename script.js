@@ -63,7 +63,7 @@ function renderContact(){
     </form>
     
     <div class="icons">
-      <span class="iconLink"><a href="mailto:johndsoko@gmail.com?" target="_blank"><i class='fas fa-envelope'></i></a></span>  
+      <span class="iconLink"><a href="mailto:johndsoko@outlook.com?" target="_blank"><i class='fas fa-envelope'></i></a></span>  
       <span class="iconLink"><a href="https://www.linkedin.com/in/john-sokolowski-97039518a/" target="_blank"><i class='fab fa-linkedin'></i></a></span>  
       <span class="iconLink"><a href="https://github.com/jdsoko" target="_blank"><i class='fab fa-github'></i></a></span>  
     </div>

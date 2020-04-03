@@ -4,6 +4,17 @@
 
 }
 
+.favicon{
+    font-size: 40pt;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(63, 35, 82);
+    margin-left: 100px;
+    margin-top: 100px;
+    letter-spacing: 5px;
+    text-shadow: 3px gray;
+    text-decoration: underline;
+}
+
 .space{
     height: 100px;
 }
@@ -249,7 +260,7 @@ li a:active{
         font-size: 13pt;
     }
     .projectLinks a{
-        font-size: 18pt;
+        font-size: 16pt;
     }
     
 }
