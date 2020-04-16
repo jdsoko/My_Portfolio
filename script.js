@@ -77,6 +77,7 @@ function renderProjects(){
 
     <img src="image/Quiz_App_Screenshot.png" class="projectPic" alt="A screenshot of a Game of Thrones trivia quiz">
 
+    <div class="projectInfo">
     <h4 class="projectTech"><span class="utilize">Utilizes:</span> HTML, CSS, Javascript, Flexbox, jQuery</h4>
     <p class="projectDescription">A short, but hopefully challenging, trivia quiz that seeks to test your knowledge of a number of potentially obscure 
             facts from one of my all-time favorite television shows, Game of Thrones.</p>
@@ -85,13 +86,14 @@ function renderProjects(){
     <span><a href="https://github.com/jdsoko/Game-of-Thrones-Quiz" target="_blank">Repo</a></span>
     <span><a href="https://jdsoko.github.io/Game-of-Thrones-Quiz/" target="_blank">Live</a></span>
             </div> 
-
+    </div>
         
             
     <h3 class="projectName">What to Play Next?</h3>
 
     <img src="image/What_To_Play_Screenshot.png" class="projectPic" alt="A screenshot of my What to Play Next project">
-
+    
+    <div class="projectInfo">
     <h4 class="projectTech projectnum2"><span class="utilize">Utilizes:</span> HTML, CSS, Javascript, Flexbox, jQuery, APIs</h4>
     <p class="projectDescription">A program that enables users to submit the title of a game they just completed and, utilizing the RAWG Video Game Database,
     returns a list of suggested games for the user to play next. The user is also able to click on each game in order to get more information about it and
@@ -101,11 +103,13 @@ function renderProjects(){
     <span><a href="https://github.com/jdsoko/What_To_Play_Next" target="_blank">Repo</a></span>
     <span><a href="https://jdsoko.github.io/What_To_Play_Next/" target="_blank">Live</a></span>
             </div>
+    </div>
 
     <h3 class="projectName">GameReview</h3>
 
     <img src="image/GameReview_Pic.png" class="projectPic" alt="A screenshot of my GameReview project">
 
+    <div class="projectInfo">
     <h4 class="projectTech projectnum2"><span class="utilize">Utilizes:</span> React, JSX, CSS, Node, Express, PostgreSQL, JWT Auth</h4>
     <p class="projectDescription">An app that enables users with a registered account to search through a list of games, and then select a specific game in order 
     to read reviews of the game posted by other users. Registered users can also add missing games to the list and post their own written reviews with an accompanying star rating.</p>
@@ -114,7 +118,7 @@ function renderProjects(){
     <span><a href="https://github.com/jdsoko/GameReview" target="_blank">Repo</a></span>
     <span><a href="https://gamereview.now.sh/" target="_blank">Live</a></span>
             </div>
-
+    </div>
             <div class="space"></div>
     </div> `
 }
