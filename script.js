@@ -18,28 +18,36 @@ $(document).ready(function(){
 //event listenter for when user clicks 'contact'
 function generateContact(){
     $('ul').on('click', 'a#contact', function(event){
+        
         $('.displayedContent').empty();
         $('.displayedContent').html(renderContact()).hide().fadeIn(700);
+        $(window).scrollTop(0)
+
     })
 }
 
 //event listener for when user clicks 'projects'
 function generateProject(){
     $('ul').on('click', 'a#projects', function(event){
+        
         $('.displayedContent').html(renderProjects()).hide().fadeIn(700);
+        $(window).scrollTop(0)
     })
 }
 
 //event listener for when user clicks 'about'
 function generateAbout(){
     $('ul').on('click', 'a#about', function(event){
+        
         $('.displayedContent').html(renderAbout()).hide().fadeIn(700);
+        $(window).scrollTop(0)
     })
 }
 
 //renders 'contact' content
 function renderContact(){
     return `<p class="contact">Thank you for your interest. If you wish to get it touch with me, feel free to use the form or the various links below:</p>
+    
     <form class="contactForm"
     action="https://formspree.io/mknvnpyn"
     method="POST"
@@ -56,11 +64,14 @@ function renderContact(){
       Your message:
       <textarea required name="message"></textarea>
     </label>
-  
-  <div class="button">
+    <div class="button">
     <button type="submit">Send</button>
     </div>
+  
     </form>
+   
+   
+    
     
     <div class="icons">
       <span class="iconLink"><a href="mailto:johndsoko@outlook.com?" target="_blank"><i class='fas fa-envelope'></i></a></span>  
@@ -121,6 +132,7 @@ function renderProjects(){
     </div>
             <div class="space"></div>
     </div> `
+    
 }
 
 //renders 'about' content

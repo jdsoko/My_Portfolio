@@ -57,7 +57,8 @@ i:hover{
     box-shadow: 2px 2px 5px rgb(88, 88, 88);
     -webkit-box-shadow: 2px 2px 5px rgb(88, 88, 88);
     -moz-box-shadow: 2px 2px 5px rgb(88, 88, 88);
-    margin-bottom: 40px;
+    
+    padding-bottom: 20px;
 }
 
 .button{
@@ -69,13 +70,13 @@ button{
     font-family: 'Roboto Slab', serif;
     background-color: rgb(63, 35, 82);
     color: rgb(214, 214, 214);
-    width: 70%;
+    width: 60%;
     height: 40px;
-    margin-left: -20px;
+    
     font-size: 14pt;
     box-sizing: border-box;
-    border: 1px solid rgb(44, 24, 58);
-
+    
+    margin-bottom: 10px;
 }
 
 button:hover{
