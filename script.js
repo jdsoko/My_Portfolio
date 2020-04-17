@@ -142,7 +142,7 @@ function renderAbout(){
                         My name is John, and I am based out of Missouri. 
                 </p>
             
-                <p>When it comes to web-development, my favorite step of the process is the CSS because I enjoying designing the aesthetic of a web-page. I also look forward to collaborating on a team with other web devlopers so that I can learn from them and create even better projects.
+                <p>My favorite part of web development is the styling, because I enjoy creating a pleasing aesthetic. I also look forward to collaborating on a team with other web devlopers so that I can learn from them and create even better projects.
                 </p>
                     
                 <p>

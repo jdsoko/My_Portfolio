@@ -4,6 +4,10 @@
 
 }
 
+.about{
+    line-height: 140%;
+}
+
 .space{
     height: 100px;
 }
@@ -26,11 +30,9 @@ i:hover{
 }
 
 .icons{
-    margin-left: 35px;
-    letter-spacing: 40px;
+   margin-left: 50px;
    margin-top: 20px;
-    display: flex;
-   justify-content: center;
+    
 }
 
 .contactForm{
@@ -59,9 +61,9 @@ button{
     font-family: 'Roboto Slab', serif;
     background-color: rgb(63, 35, 82);
     color: rgb(214, 214, 214);
-    width: 60%;
+    width: 70%;
     height: 40px;
-    
+    margin-right: 20px;
     font-size: 14pt;
     box-sizing: border-box;
     
@@ -332,11 +334,14 @@ li a:active{
         font-size: 13pt;
     }
     .projectLinks{
-        font-size: 10pt;
+        font-size: 8pt;
+        padding-bottom: 10px;
     }
     .projectDescription{
-        padding: 20px;
+        width: 108%;
+        margin-left: -10px;
     }
+   
     .contactForm{
         width: 100%;
         padding-top: 10px;
@@ -344,7 +349,18 @@ li a:active{
     button{
         font-size: 11pt;
     }
-    
+    .projectInfo{
+        padding: 0;
+        margin-bottom: 80px;
+    }
+    .icons{
+        margin-left: 15px;
+        margin-top: 80px;
+        letter-spacing: 30px;
+    }
+    i{
+        font-size: 29pt
+    }
 }
 
 
