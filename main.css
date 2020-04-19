@@ -9,7 +9,8 @@ footer{
     justify-content: center;
     font-family: 'Roboto Slab', sans-serif;
     font-size: 9pt;
-    color: rgb(104, 104, 104)
+    color: rgb(104, 104, 104);
+    font-style: italic;
 }
 
 .footer{
