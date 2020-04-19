@@ -4,6 +4,7 @@
 
 }
 
+
 .about{
     line-height: 140%;
 }
@@ -27,6 +28,7 @@ i:hover{
 
 .contact{
     margin-bottom: 55px;
+    line-height: 140%;
 }
 
 .icons{
@@ -99,12 +101,13 @@ input, textarea{
 
 }
 
+
+
 .projectDescription{
    padding-left: 30px;
    padding-right: 30px;
-    
-    
-    margin-bottom: 20px;
+   line-height: 140%;
+    margin-bottom: 25px;
 }
 
 .projectInfo{
@@ -119,21 +122,24 @@ input, textarea{
 .projectLinks{
     margin-top: 10px;
     word-spacing: 40px;
-    
+    margin-bottom: 10px;
 }
 .projectLinks a{
     text-decoration: none;
     text-transform: initial;
-    color: rgb(63, 35, 82);
+    color: rgb(214, 214, 214);
     font-size: 14pt;
-    
+    background-color: rgb(63, 35, 82);
+    padding: 8px;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
     
 }
 
 .projectLinks a:hover{
-    font-weight: bold;
-    color: rgb(63, 35, 82);
-    border-bottom: 3px solid rgb(63, 35, 82);
+    
+    background-color: rgb(101, 80, 126)
+    
 }
 
 .about, .projectDescription, .contact{
@@ -147,6 +153,7 @@ input, textarea{
 
 .utilize{
     color: rgb(63, 35, 82);
+    text-transform: uppercase;
 }
 
 .projectPic{
@@ -162,18 +169,19 @@ input, textarea{
     height: 50px;
 }
 
-body{
-    background-color: rgb(241, 241, 241);
-}
+
 
 .navList{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     position: fixed;
     display: flex;
     justify-content: center;
     background-color: rgb(101, 80, 126);
     width: 100%;
-    margin-top: -100px;
-    margin-left: -8px;
+    
     height: 60px;
     font-family: 'Roboto Slab', serif;
     text-transform: uppercase;
@@ -182,6 +190,7 @@ body{
     box-shadow: 2px 2px 5px rgb(88, 88, 88);
     -webkit-box-shadow: 2px 2px 5px rgb(88, 88, 88);
     -moz-box-shadow: 2px 2px 5px rgb(88, 88, 88);
+    z-index:999;
 }
 
 li{
@@ -215,11 +224,26 @@ li a:active{
     text-transform: uppercase;
     text-align: center;
     
-    margin-left: auto;
-    margin-right: auto;
     
 }
 
+body{
+    margin: 0px;
+}
+
+
+.header{
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 50px;
+    
+}
+.graySpace{
+    height: 1000px;
+    background-color: rgb(241, 241, 241);
+    margin-bottom: -100px;
+    margin-top: -900px;
+}
 .name{
     font-size: 18pt;
 }
@@ -272,6 +296,8 @@ li a:active{
 @media only screen and (max-width: 870px){
     .headerContent{
         width: 60%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .projectPic{
         width: 100%;
@@ -327,19 +353,25 @@ li a:active{
         font-size: 11pt;
     }
     .displayedContent{
-        font-size: 10pt;
+        font-size: 11pt;
         margin-top: 50px;
     }
     .projectName{
         font-size: 13pt;
     }
-    .projectLinks{
-        font-size: 8pt;
-        padding-bottom: 10px;
+    .projectLinks a{
+        font-size: 11pt;
+        
     }
+
+    .projectLinks{
+        margin-bottom: 20px;
+    }
+
     .projectDescription{
-        width: 108%;
-        margin-left: -10px;
+        padding-right: 0;
+        padding-left: 10px;
+        
     }
    
     .contactForm{
@@ -377,7 +409,6 @@ li a:active{
         left: 0;
         height: 100%;
         background-color: rgb(101, 80, 126);
-        margin-top: -100px;
         box-shadow: 2px 2px 5px rgb(88, 88, 88);
         -webkit-box-shadow: 2px 2px 5px rgb(88, 88, 88);
         -moz-box-shadow: 2px 2px 5px rgb(88, 88, 88);
