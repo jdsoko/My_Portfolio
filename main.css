@@ -4,6 +4,15 @@
 
 }
 
+.blogLink{
+    color: rgb(63, 35, 82);
+    font-weight: bold;
+    text-decoration: none;
+}
+.blogLink:hover{
+    text-decoration: underline;
+}
+
 footer{
     display: flex;
     justify-content: center;

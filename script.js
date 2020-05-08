@@ -84,22 +84,35 @@ function renderContact(){
 //renders 'projects' content
 function renderProjects(){
     return `<div class="projectContent">
-    <h3 class="projectName">Quiz of Thrones</h3>
+    <h3 class="projectName">Ju$t for Fund</h3>
 
-    <img src="image/Quiz_App_Screenshot.png" class="projectPic" alt="A screenshot of a Game of Thrones trivia quiz">
+    <img src="image/just-for-fund-screenshot(2).png" class="projectPic" alt="A screenshot of a Game of Thrones trivia quiz">
 
     <div class="projectInfo">
-    <h4 class="projectTech"><span class="utilize">Utilizes:</span> HTML, CSS, Javascript, Flexbox, jQuery</h4>
-    <p class="projectDescription">A short, but hopefully challenging, trivia quiz that seeks to test your knowledge of a number of potentially obscure 
-            facts from one of my all-time favorite television shows, Game of Thrones.</p>
+    <h4 class="projectTech"><span class="utilize">Utilizes:</span> React, JSX, CSS, Node, Express, PostgreSQL, JWT Auth</h4>
+    <p class="projectDescription">An app that enables users with a registered account to create and delete financial budgets. They can also input and track purchases for each budget and sort those purchases by category. For group budgeting, users can enter the username of another user they wish to share the budget with, enabling that user access to that specific budget and its purchases.</p>
     
             <div class="projectLinks">
-    <span><a href="https://github.com/jdsoko/Game-of-Thrones-Quiz" target="_blank">Repo</a></span>
-    <span><a href="https://jdsoko.github.io/Game-of-Thrones-Quiz/" target="_blank">Live</a></span>
+    <span><a href="https://github.com/jdsoko/Just_For_Fund_Client" target="_blank">Repo</a></span>
+    <span><a href="https://just-for-fund.now.sh/" target="_blank">Live</a></span>
             </div> 
     </div>
-        
-            
+    <h3 class="projectName">GameReview</h3>
+
+    <img src="image/GameReview_Pic.png" class="projectPic" alt="A screenshot of my GameReview project">
+
+    <div class="projectInfo">
+    <h4 class="projectTech projectnum2"><span class="utilize">Utilizes:</span> React, JSX, CSS, Node, Express, PostgreSQL, JWT Auth</h4>
+    <p class="projectDescription">An app that enables users with a registered account to search through a list of games, and then select a specific game in order 
+    to read reviews of the game posted by other users. Registered users can also add missing games to the list and post their own written reviews with an accompanying star rating.</p>
+    
+            <div class="projectLinks">
+    <span><a href="https://github.com/jdsoko/GameReview" target="_blank">Repo</a></span>
+    <span><a href="https://gamereview.now.sh/" target="_blank">Live</a></span>
+            </div>
+    </div>
+
+           
     <h3 class="projectName">What to Play Next?</h3>
 
     <img src="image/What_To_Play_Screenshot.png" class="projectPic" alt="A screenshot of my What to Play Next project">
@@ -116,20 +129,21 @@ function renderProjects(){
             </div>
     </div>
 
-    <h3 class="projectName">GameReview</h3>
+    <h3 class="projectName">Quiz of Thrones</h3>
 
-    <img src="image/GameReview_Pic.png" class="projectPic" alt="A screenshot of my GameReview project">
+    <img src="image/Quiz_App_Screenshot.png" class="projectPic" alt="A screenshot of a Game of Thrones trivia quiz">
 
     <div class="projectInfo">
-    <h4 class="projectTech projectnum2"><span class="utilize">Utilizes:</span> React, JSX, CSS, Node, Express, PostgreSQL, JWT Auth</h4>
-    <p class="projectDescription">An app that enables users with a registered account to search through a list of games, and then select a specific game in order 
-    to read reviews of the game posted by other users. Registered users can also add missing games to the list and post their own written reviews with an accompanying star rating.</p>
+    <h4 class="projectTech"><span class="utilize">Utilizes:</span> HTML, CSS, Javascript, Flexbox, jQuery</h4>
+    <p class="projectDescription">A short, but hopefully challenging, trivia quiz that seeks to test your knowledge of a number of potentially obscure 
+            facts from one of my all-time favorite television shows, Game of Thrones.</p>
     
             <div class="projectLinks">
-    <span><a href="https://github.com/jdsoko/GameReview" target="_blank">Repo</a></span>
-    <span><a href="https://gamereview.now.sh/" target="_blank">Live</a></span>
-            </div>
+    <span><a href="https://github.com/jdsoko/Game-of-Thrones-Quiz" target="_blank">Repo</a></span>
+    <span><a href="https://jdsoko.github.io/Game-of-Thrones-Quiz/" target="_blank">Live</a></span>
+            </div> 
     </div>
+   
             <div class="space"></div>
     </div> `
     
@@ -148,6 +162,10 @@ function renderAbout(){
                 <p>
                     Outside of coding, I enjoy reading, creative writing, playing video games, listening to music, and spending time with my friends. In addition to being a programmer, I hope
                     to also one day be a published author. 
+                </p>
+
+                <p>
+                I also have <a class="blogLink" href="https://john-sokolowski.weebly.com/" target="_blank">a new blog</a>, if you wish to check it out.
                 </p>
             </div>
 `
