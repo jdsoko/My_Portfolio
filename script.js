@@ -165,8 +165,8 @@ function renderAbout(){
                 </p>
 
                 <p>
-                I also have <a class="blogLink" href="https://john-sokolowski.weebly.com/" target="_blank">a new blog</a>, if you wish to check it out.
-                </p>
+                I have recently started <a class="blogLink" href="https://john-sokolowski.weebly.com/" target="_blank">a new blog</a>, if that interests you.
+            </p>
             </div>
 `
 
