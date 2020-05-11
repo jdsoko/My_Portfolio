@@ -85,12 +85,10 @@ function renderContact(){
 function renderProjects(){
     return `<div class="projectContent">
     <h3 class="projectName">Ju$t for Fund</h3>
-
     <img src="image/just-for-fund-screenshot(2).png" class="projectPic" alt="A screenshot of a Game of Thrones trivia quiz">
-
     <div class="projectInfo">
     <h4 class="projectTech"><span class="utilize">Utilizes:</span> React, JSX, CSS, Node, Express, PostgreSQL, JWT Auth</h4>
-    <p class="projectDescription">An app that enables users with a registered account to create and delete financial budgets. They can also input and track purchases for each budget and sort those purchases by category. For group budgeting, users can enter the username of another user they wish to share the budget with, enabling that user access to that specific budget and its purchases.</p>
+    <p class="projectDescription">An app that enables users with a registered account to create and delete financial budgets. They can also input and track purchases for each budget and sort those purchases by category. For group budgeting, users can enter the username of another user they wish to share the budget with, enabling that user access to that specific budget and its purchases. The app is intended for anyone who wants to be able to track their purchases and properly budget, but especially who is looking to budget along with someone else. I built this app because my fiance and I recently had a son and we were looking to be able to more closely manage our finances together.</p>
     
             <div class="projectLinks">
     <span><a href="https://github.com/jdsoko/Just_For_Fund_Client" target="_blank">Repo</a></span>
@@ -98,45 +96,34 @@ function renderProjects(){
             </div> 
     </div>
     <h3 class="projectName">GameReview</h3>
-
     <img src="image/GameReview_Pic.png" class="projectPic" alt="A screenshot of my GameReview project">
-
     <div class="projectInfo">
     <h4 class="projectTech projectnum2"><span class="utilize">Utilizes:</span> React, JSX, CSS, Node, Express, PostgreSQL, JWT Auth</h4>
-    <p class="projectDescription">An app that enables users with a registered account to search through a list of games, and then select a specific game in order 
-    to read reviews of the game posted by other users. Registered users can also add missing games to the list and post their own written reviews with an accompanying star rating.</p>
+    <p class="projectDescription">An app that enables users with a registered account to search through a list of games, and then select a specific game in order to read reviews of the game posted by other users. Registered users can also add missing games to the list and post their own written reviews with an accompanying star rating. I made the app as a place for people to easily be able to express their opinions on whatever video game they desire. My reason for making it was because video games are a hobby of mine and I wanted to provide people a platform to share their views on their favorite video games.</p>
     
             <div class="projectLinks">
     <span><a href="https://github.com/jdsoko/GameReview" target="_blank">Repo</a></span>
     <span><a href="https://gamereview.now.sh/" target="_blank">Live</a></span>
             </div>
     </div>
-
            
     <h3 class="projectName">What to Play Next?</h3>
-
     <img src="image/What_To_Play_Screenshot.png" class="projectPic" alt="A screenshot of my What to Play Next project">
     
     <div class="projectInfo">
     <h4 class="projectTech projectnum2"><span class="utilize">Utilizes:</span> HTML, CSS, Javascript, Flexbox, jQuery, APIs</h4>
-    <p class="projectDescription">A program that enables users to submit the title of a game they just completed and, utilizing the RAWG Video Game Database,
-    returns a list of suggested games for the user to play next. The user is also able to click on each game in order to get more information about it and
-    even purchase it.</p>
+    <p class="projectDescription">A program that enables users to submit the title of a game they just completed and, utilizing the RAWG Video Game Database, returns a list of suggested games for the user to play next. The user is also able to click on each game in order to get more information about it and even purchase it. The app is intended as a tool for gamer’s so that they don’t have to worry about what game they want to play next. I built the app because I am indecisive and oftentimes struggle with finding new games to play that are similar to other games I have enjoyed.</p>
     
             <div class="projectLinks">
     <span><a href="https://github.com/jdsoko/What_To_Play_Next" target="_blank">Repo</a></span>
     <span><a href="https://jdsoko.github.io/What_To_Play_Next/" target="_blank">Live</a></span>
             </div>
     </div>
-
     <h3 class="projectName">Quiz of Thrones</h3>
-
     <img src="image/Quiz_App_Screenshot.png" class="projectPic" alt="A screenshot of a Game of Thrones trivia quiz">
-
     <div class="projectInfo">
     <h4 class="projectTech"><span class="utilize">Utilizes:</span> HTML, CSS, Javascript, Flexbox, jQuery</h4>
-    <p class="projectDescription">A short, but hopefully challenging, trivia quiz that seeks to test your knowledge of a number of potentially obscure 
-            facts from one of my all-time favorite television shows, Game of Thrones.</p>
+    <p class="projectDescription">A short, but hopefully challenging, trivia quiz that seeks to test your knowledge of a number of potentially obscure facts from one of my all-time favorite television shows, Game of Thrones. The quiz is intended for anyone who is a fan of Game of Thrones and thinks they know a lot about it. I made the app because I thought it would be a fun way to explore my love and knowledge of the show.</p>
     
             <div class="projectLinks">
     <span><a href="https://github.com/jdsoko/Game-of-Thrones-Quiz" target="_blank">Repo</a></span>
@@ -163,7 +150,6 @@ function renderAbout(){
                     Outside of coding, I enjoy reading, creative writing, playing video games, listening to music, and spending time with my friends. In addition to being a programmer, I hope
                     to also one day be a published author. 
                 </p>
-
                 <p>
                 I have recently started <a class="blogLink" href="https://john-sokolowski.weebly.com/" target="_blank">a new blog</a>, if that interests you.
             </p>
