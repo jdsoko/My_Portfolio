@@ -48,7 +48,7 @@ footer{
 }
 
 .about{
-    line-height: 140%;
+    line-height: 160%;
 }
 
 .space{
@@ -148,7 +148,7 @@ input, textarea{
 .projectDescription{
    padding-left: 30px;
    padding-right: 30px;
-   line-height: 140%;
+   line-height: 160%;
     margin-bottom: 25px;
 }
 
@@ -435,6 +435,7 @@ body{
     }
 
     .projectDescription{
+        
         padding-right: 0;
         padding-left: 5px;
         margin-bottom: 30px;
