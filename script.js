@@ -74,16 +74,16 @@ function renderContact(){
     
     
     <div class="icons">
-      <span class="iconLink"><a href="mailto:johndsoko@outlook.com?" target="_blank"><i class='fas fa-envelope'></i></a></span>  
-      <span class="iconLink"><a href="https://www.linkedin.com/in/john-sokolowski-97039518a/" target="_blank"><i class='fab fa-linkedin'></i></a></span>  
-      <span class="iconLink"><a href="https://github.com/jdsoko" target="_blank"><i class='fab fa-github'></i></a></span>  
+      <span class="iconLink"><a href="mailto:johndsoko@outlook.com?" target="_blank" aria-label="Email link"><i class='fas fa-envelope'></i></a></span>  
+      <span class="iconLink"><a href="https://www.linkedin.com/in/john-sokolowski-97039518a/" target="_blank" aria-label="LinkedIn link"><i class='fab fa-linkedin'></i></a></span>  
+      <span class="iconLink"><a href="https://github.com/jdsoko" target="_blank" aria-label="GitHub link"><i class='fab fa-github'></i></a></span>  
     </div>
     <div class="space"></div>`
 }
 
 //renders 'projects' content
 function renderProjects(){
-    return `<div class="projectContent">
+    return `<section class="projectContent">
     <h3 class="projectName">Ju$t for Fund</h3>
     <img src="image/just-for-fund-screenshot(2).png" class="projectPic" alt="A screenshot of a Game of Thrones trivia quiz">
     <div class="projectInfo">
@@ -132,13 +132,13 @@ function renderProjects(){
     </div>
    
             <div class="space"></div>
-    </div> `
+    </section> `
     
 }
 
 //renders 'about' content
 function renderAbout(){
-    return `<div class="about">
+    return `<section class="about">
                 <p>
                         My name is John, and I am based out of Missouri. 
                 </p>
@@ -153,7 +153,7 @@ function renderAbout(){
                 <p>
                 I have recently started <a class="blogLink" href="https://john-sokolowski.weebly.com/" target="_blank">a new blog</a>, if that interests you.
             </p>
-            </div>
+            </section>
 `
 
 }

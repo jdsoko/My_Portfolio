@@ -1,7 +1,10 @@
 *{
     box-sizing: border-box;
-    
 
+}
+
+body{
+    margin: 0px;
 }
 
 .blogLink{
@@ -362,6 +365,17 @@ body{
 }
 
 @media only screen and (max-width: 600px){
+    .headline{
+        display: none;
+    }
+    .headOutline{
+        display: none;
+    }
+    .graySpace{
+        margin-top: 0px;
+        height: 80px;
+        
+    }
     label{
         font-size: 10pt;
     }
@@ -391,14 +405,21 @@ body{
         width: 80%;
     }
     .name{
+        text-decoration: underline;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 75px;
         font-size: 17pt;
+        top: 0; left: 0; bottom: 0; right: 0
     }
     .headline{
         font-size: 11pt;
     }
     .displayedContent{
         font-size: 11pt;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .projectName{
         font-size: 13pt;
@@ -414,8 +435,8 @@ body{
 
     .projectDescription{
         padding-right: 0;
-        padding-left: 10px;
-        
+        padding-left: 5px;
+        margin-bottom: 30px;
     }
    
     .contactForm{
