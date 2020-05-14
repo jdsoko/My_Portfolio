@@ -112,7 +112,7 @@ function renderProjects(){
     
     <div class="projectInfo">
     <h4 class="projectTech projectnum2"><span class="utilize">Utilizes:</span> HTML, CSS, Javascript, Flexbox, jQuery, APIs</h4>
-    <p class="projectDescription">A program that enables users to submit the title of a game they just completed and, utilizing the RAWG Video Game Database, returns a list of suggested games for the user to play next. The user is also able to click on each game in order to get more information about it and even purchase it. The app is intended as a tool for gamer’s so that they don’t have to worry about what game they want to play next. I built the app because I am indecisive and oftentimes struggle with finding new games to play that are similar to other games I have enjoyed.</p>
+    <p class="projectDescription">A program that enables users to submit the title of a game they just completed and, utilizing the RAWG Video Game Database, returns a list of suggested games for the user to play next. The user is also able to click on each game in order to get more information about it and even purchase it. The app is intended as a tool for gamers so that they do not have to worry about what game they want to play next. I built the app because I am indecisive and oftentimes struggle with finding new games to play that are similar to other games I have enjoyed.</p>
     
             <div class="projectLinks">
     <span><a href="https://github.com/jdsoko/What_To_Play_Next" target="_blank">Repo</a></span>
@@ -143,7 +143,7 @@ function renderAbout(){
                         My name is John, and I am based out of Missouri. 
                 </p>
             
-                <p>My favorite part of web development is the styling, because I enjoy creating a pleasing aesthetic. I also look forward to collaborating on a team with other web devlopers so that I can learn from them and create even better projects.
+                <p>My favorite part of web development is the styling, because I enjoy creating a pleasing aesthetic. I also look forward to collaborating on a team with other web developers so that I can learn from them and create even better projects.
                 </p>
                     
                 <p>
