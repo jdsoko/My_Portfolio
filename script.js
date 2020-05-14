@@ -147,7 +147,7 @@ function renderAbout(){
                 </p>
                     
                 <p>
-                    Outside of coding, I enjoy reading, creative writing, playing video games, listening to music, and spending time with my friends. In addition to being a programmer, I hope
+                    Outside of coding I enjoy reading, creative writing, playing video games, listening to music, and spending time with my friends. In addition to being a programmer, I hope
                     to also one day be a published author. 
                 </p>
                 <p>
