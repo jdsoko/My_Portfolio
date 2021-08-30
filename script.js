@@ -46,8 +46,7 @@ function generateAbout(){
 
 //renders 'contact' content
 function renderContact(){
-    return `<p class="contact">Thank you for your interest. If you wish to get it touch with me, feel free to use the form or the various links below:</p>
-    
+    return `
     <form class="contactForm"
     action="https://formspree.io/mknvnpyn"
     method="POST"
@@ -107,18 +106,6 @@ function renderProjects(){
             </div>
     </div>
            
-    <h3 class="projectName">What to Play Next?</h3>
-    <img src="image/What_To_Play_Screenshot.png" class="projectPic" alt="A screenshot of my What to Play Next project">
-    
-    <div class="projectInfo">
-    <h4 class="projectTech projectnum2"><span class="utilize">Utilizes:</span> HTML, CSS, JavaScript, Flexbox, jQuery, APIs</h4>
-    <p class="projectDescription">A program that enables users to submit the title of a game they just completed and, utilizing the RAWG Video Game Database, returns a list of suggested games for the user to play next. The user is also able to click on each game in order to get more information about it and even purchase it. The app is intended as a tool for gamers so that they do not have to worry about what game they want to play next. I built the app because I am indecisive and oftentimes struggle with finding new games to play that are similar to other games I have enjoyed.</p>
-    
-            <div class="projectLinks">
-    <span><a href="https://github.com/jdsoko/What_To_Play_Next" target="_blank">Repo</a></span>
-    <span><a href="https://jdsoko.github.io/What_To_Play_Next/" target="_blank">Live</a></span>
-            </div>
-    </div>
     <h3 class="projectName">Quiz of Thrones</h3>
     <img src="image/Quiz_App_Screenshot.png" class="projectPic" alt="A screenshot of a Game of Thrones trivia quiz">
     <div class="projectInfo">
