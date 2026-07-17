@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <meta name="description" content="Online Portfolio for John Sokolowski" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../main.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/images/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Portfolio" />
+    <link rel="manifest" href="/images/site.webmanifest" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <a href="/"
+          ><p id="header-name">
+            John Sokolowski <span id="header-name-divider">|</span> Portfolio
+          </p></a
+        >
+        <nav class="nav-container">
+          <div id="hamburger-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-list">
+            <li class="header-list-item">
+              <a class="header-link" href="/">Home</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-link" href="/about/">About</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-link" href="/projects/">Projects</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-link" href="/contact/">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <nav>
+        <ul class="mobile-nav nav-list">
+          <li class="header-list-item">
+            <a class="header-link" href="/">Home</a>
+          </li>
+          <li class="header-list-item">
+            <a class="header-link" href="/about/">About</a>
+          </li>
+          <li class="header-list-item">
+            <a class="header-link" href="/projects/">Projects</a>
+          </li>
+          <li class="header-list-item">
+            <a class="header-link" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1 class="project-title">Ju$t for Fund</h1>
+        <section class="projects-carousel">
+          <div class="carousel-window">
+            <div class="carousel-track">
+              <div class="project-slide">
+                <img
+                  src="../images//just-for-fund/landing.png"
+                  alt="landing page screenshot"
+                />
+              </div>
+              <div class="project-slide">
+                <img
+                  src="../images/just-for-fund/budgets.png"
+                  alt="budgets page screenshot"
+                />
+              </div>
+              <div class="project-slide">
+                <img
+                  src="../images/just-for-fund/purchases.png"
+                  alt="purchases page screenshot"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-buttons">
+            <button
+              class="carousel-button prev"
+              aria-label="previous screenshot"
+            >
+              <
+            </button>
+            <button class="carousel-button next" aria-label="next screenshot">
+              >
+            </button>
+          </div>
+        </section>
+        <div class="project-info">
+          <div class="project-tech-container">
+            <p class="project-built">Built with:</p>
+            <p class="project-stack-list">
+              React <span class="tech-separator">•</span> Express
+              <span class="tech-separator">•</span> PostgreSQL
+            </p>
+          </div>
+          <p class="project-description">
+            An app that enables users with a registered account to create and
+            delete financial budgets. They can also input and track purchases
+            for each budget and sort those purchases by category. For group
+            budgeting, users can enter the username of another user they wish to
+            share the budget with, enabling that user access to that specific
+            budget and its purchases.
+          </p>
+
+          <div class="project-button-container">
+            <a
+              href="https://just-for-fund.vercel.app/"
+              target="_blank"
+              class="project-button home-button"
+              id="live-demo-button"
+              ><span>Live</span></a
+            >
+            <a
+              href="https://github.com/jdsoko/Just_For_Fund_Client"
+              target="_blank"
+              class="project-button home-button"
+              ><span>Repo</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 class="project-title">GameReview</h1>
+        <section class="projects-carousel">
+          <div class="carousel-window">
+            <div class="carousel-track">
+              <div class="project-slide">
+                <img
+                  src="../images/gamereview/landing.png"
+                  alt="landing page screenshot"
+                />
+              </div>
+              <div class="project-slide">
+                <img
+                  src="../images/gamereview/games.png"
+                  alt="games list page screenshot"
+                />
+              </div>
+              <div class="project-slide">
+                <img
+                  src="../images/gamereview/reviews.png"
+                  alt="game reviews page screenshot"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-buttons">
+            <button
+              class="carousel-button prev"
+              aria-label="previous screenshot"
+            >
+              <
+            </button>
+            <button class="carousel-button next" aria-label="next screenshot">
+              >
+            </button>
+          </div>
+        </section>
+        <div class="project-info">
+          <div class="project-tech-container">
+            <p class="project-built">Built with:</p>
+            <p class="project-stack-list">
+              React <span class="tech-separator">•</span> Express
+              <span class="tech-separator">•</span> PostgreSQL
+            </p>
+          </div>
+          <p class="project-description">
+            An app that enables users with a registered account to search
+            through a list of games, and then select a specific game in order to
+            read reviews of the game posted by other users. Registered users can
+            also add missing games to the list and post their own written
+            reviews with an accompanying star rating. I made the app as a place
+            for people to easily be able to express their opinions on whatever
+            video game they desire.
+          </p>
+
+          <div class="project-button-container">
+            <a
+              href="https://gamereview.vercel.app/"
+              target="_blank"
+              class="project-button home-button"
+              id="live-demo-button"
+              ><span>Live</span></a
+            >
+            <a
+              href="https://github.com/jdsoko/GameReview"
+              target="_blank"
+              class="project-button home-button"
+              ><span>Repo</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 class="project-title">Quiz App</h1>
+        <section class="projects-carousel">
+          <div class="carousel-window">
+            <div class="carousel-track">
+              <div class="project-slide">
+                <img
+                  src="../images/quiz-app/landing.png"
+                  alt="quiz landing page screenshot"
+                />
+              </div>
+              <div class="project-slide">
+                <img
+                  src="../images/quiz-app/question.png"
+                  alt="quiz question page screenshot"
+                />
+              </div>
+              <div class="project-slide">
+                <img
+                  src="../images/quiz-app/score.png"
+                  alt="quiz score page screenshot"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-buttons">
+            <button
+              class="carousel-button prev"
+              aria-label="previous screenshot"
+            >
+              <
+            </button>
+            <button class="carousel-button next" aria-label="next screenshot">
+              >
+            </button>
+          </div>
+        </section>
+        <div class="project-info">
+          <div class="project-tech-container">
+            <p class="project-built">Built with:</p>
+            <p class="project-stack-list">
+              HTML <span class="tech-separator">•</span>
+              jQuery
+              <span class="tech-separator">•</span> Flexbox
+            </p>
+          </div>
+          <p class="project-description">
+            A short, but hopefully challenging, trivia quiz that seeks to test
+            your knowledge of a number of potentially obscure facts from one of
+            my all-time favorite television shows, Game of Thrones. The quiz is
+            intended for anyone who is a fan of Game of Thrones and thinks they
+            know a lot about it. I made the app because I thought it would be a
+            fun way to explore my love and knowledge of the show.
+          </p>
+
+          <div class="project-button-container">
+            <a
+              href="https://jdsoko.github.io/Game-of-Thrones-Quiz/"
+              target="_blank"
+              class="project-button home-button"
+              id="live-demo-button"
+              ><span>Live</span></a
+            >
+            <a
+              href="https://github.com/jdsoko/Game-of-Thrones-Quiz"
+              target="_blank"
+              class="project-button home-button"
+              ><span>Repo</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

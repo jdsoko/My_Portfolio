@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <meta name="description" content="Online Portfolio for John Sokolowski" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../main.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/images/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Portfolio" />
+    <link rel="manifest" href="/images/site.webmanifest" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <a href="/"
+          ><p id="header-name">
+            John Sokolowski <span id="header-name-divider">|</span> Portfolio
+          </p></a
+        >
+        <nav class="nav-container">
+          <div id="hamburger-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-list">
+            <li class="header-list-item">
+              <a class="header-link" href="/">Home</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-link" href="/about/">About</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-link" href="/projects/">Projects</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-link" href="/contact/">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <nav>
+        <ul class="mobile-nav nav-list">
+          <li class="header-list-item">
+            <a class="header-link" href="/">Home</a>
+          </li>
+          <li class="header-list-item">
+            <a class="header-link" href="/about/">About</a>
+          </li>
+          <li class="header-list-item">
+            <a class="header-link" href="/projects/">Projects</a>
+          </li>
+          <li class="header-list-item">
+            <a class="header-link" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="about-title">
+        My name is <span class="about-name">John Sokolowski</span>
+      </h1>
+      <div class="scroll-strip">
+        <div class="scroll-track">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>jQuery</span>
+          <span>JSX</span>
+          <span>Vue</span>
+          <span>Knockout.js</span>
+          <span>Postgres</span>
+          <span>Git</span>
+          <span>Jira</span>
+          <span>Postman</span>
+          <!-- Duplicated for seamless loop-->
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>jQuery</span>
+          <span>JSX</span>
+          <span>Vue</span>
+          <span>Knockout.js</span>
+          <span>Postgres</span>
+          <span>Git</span>
+          <span>Jira</span>
+          <span>Postman</span>
+        </div>
+      </div>
+      <div class="about-body">
+        <p class="about-text">
+          I'm a front-end developer currently employed at O'Reilly Auto Parts,
+          developing for their e-commerce website, proficient with languages
+          such as HTML, JavaScript, CSS, as well as a variety of frameworks and
+          libraries. I've personally developed multiple projects with focus on
+          mobile-first design and accessibility, and also contributed to the
+          development of apps and websites utilized by millions of users.
+        </p>
+      </div>
+      <div class="about-card-container">
+        <div class="about-card">
+          <img
+            class="about-icon education"
+            src="../images/icons/education.svg"
+            alt="Graduation cap icon"
+          />
+          <div>
+            <h2 class="about-card-title">Education</h2>
+            <ul class="about-card-list">
+              <li>
+                Bloc Web Developer Track
+                <a
+                  href="https://drive.google.com/file/d/1NUVBWSDKPaeIdQ8p6kXVcCdLTrVtlQbn/view"
+                  target="_blank"
+                  id="about-cert-link"
+                  >Certificate ↗</a
+                >
+              </li>
+
+              <li>St. Charles Community College</li>
+              <li>Francis Howell High School</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-card">
+          <img
+            class="about-icon hobbies"
+            src="../images/icons/hobbies.svg"
+            alt="Video game controller icon"
+          />
+          <div>
+            <h2 class="about-card-title">Interests</h2>
+            <ul class="about-card-list">
+              <li>Video games</li>
+              <li>Movies</li>
+              <li>Music</li>
+              <li>Reading</li>
+              <li>Creative writing</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-card">
+          <img
+            class="about-icon goals"
+            src="../images/icons/goals.svg"
+            alt="Checklist icon"
+          />
+          <div>
+            <h2 class="about-card-title">Future Goals</h2>
+            <ul class="about-card-list">
+              <li>Develop a video game</li>
+              <li>Publish a novel</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
