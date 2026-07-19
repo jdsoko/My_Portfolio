@@ -157,11 +157,13 @@ function initProjectCarousel() {
 }
 
 window.onload = function () {
-  if (window.location.pathname === "/") {
+  const page = document.body.dataset.page;
+
+  if (page === "home") {
     initCounterObserver();
   }
 
-  if (window.location.pathname === "/projects/") {
+  if (page === "projects") {
     initProjectCarousel();
   }
 
