@@ -102,7 +102,7 @@ function runCountUp() {
 }
 
 function startCounter() {
-  setVars("May, 2020 12:00:00");
+  setVars("May 30, 2020 12:00:00");
 }
 
 function initCounterObserver() {
