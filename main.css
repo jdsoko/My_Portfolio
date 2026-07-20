@@ -369,7 +369,7 @@ i:hover {
   flex-shrink: 1;
   min-width: 220px;
   display: block;
-  width: 260px;
+  width: 220px;
 }
 
 .my-portrait {
@@ -536,13 +536,13 @@ i:hover {
 }
 
 #about-cert-link {
-  padding-left: 10px;
+  margin-left: 10px;
   color: #7657fd;
   font-size: 20px;
 }
 
 #about-cert-link:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid #7657fd;
 }
 
 .project-title {
